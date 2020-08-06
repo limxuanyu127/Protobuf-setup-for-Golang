@@ -23,6 +23,10 @@ With reference to **person.proto**:
 With reference to **pb directory**
 
 - .go files contains code for the struct, as well as getters and setters
+- Generate using the protoc command
+```
+$ protoc --go_out=. *.proto
+```
 
 ### 3: Use the .go output file to create structs and serialise it
 With reference to **main.go**
