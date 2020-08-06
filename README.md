@@ -17,7 +17,7 @@ With reference to **person.proto**:
 - Set syntax, package
 - Set go_package
     - ```option go_package = "./pb";```   
-    - Path to store the ouput proto go file
+    - Path to store the output proto go file
     
 ### 2: Generate .go file from .proto file
 With reference to **pb directory**
