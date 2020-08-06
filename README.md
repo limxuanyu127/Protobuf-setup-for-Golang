@@ -8,6 +8,7 @@ _Plug-ins required_
 - github.com/golang/protobuf
 - github.com/golang/protobuf/proto
 - github.com/golang/protobuf/protoc-gen-go
+
 (for proto compilers and other libraries for code)
 
 ### 1: Write your .proto file
@@ -44,7 +45,8 @@ With reference to **main.go**
     - Array of items (repeated)
           
           
-```message Email { 
+```
+message Email { 
                       string primary =1;
                   }
                 
