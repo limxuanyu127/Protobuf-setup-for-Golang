@@ -42,11 +42,11 @@ With reference to **main.go**
     - possibility of enums etc.
     - Nested messages(struct)
     - Array of items (repeated)
-        - ```  message Email {
-                   string primary =1;
-               }
-             
-               repeated Email emails = 3;```
+ ```  message Email {
+           string primary =1;
+       }
+     
+       repeated Email emails = 3;```
           
 <hr>
 <br>
