@@ -1,0 +1,22 @@
+syntax="proto3";
+
+package main;
+
+// Path to store the ouput proto go file
+option go_package = "./pb";
+
+message Person {
+  string name = 1;
+  int32 age = 2;
+  enum Gender{
+    male = 0;
+    female = 1;
+  }
+
+  message Email {
+      string primary =1;
+  }
+
+  repeated Email emails = 3;
+
+}
